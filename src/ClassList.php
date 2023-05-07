@@ -2,10 +2,12 @@
 
 namespace IC\Html;
 
+use Stringable;
+
 /**
  * ClassList is a helper class to operate on class names.
  */
-final class ClassList
+final class ClassList implements Stringable
 {
 
     private array $names = [];
